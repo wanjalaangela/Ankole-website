@@ -1,0 +1,277 @@
+#info-and-featuredartist{
+    display: flex;
+}
+#live-info-image{
+    margin-left: 0.4cm;
+    margin-top: 1.4cm;
+}
+#logo{
+    margin-left: 0.4cm;
+    
+}
+#artist-featured{
+    margin-left: 0.4cm;
+    margin-top: 1.7cm;
+    line-height: 0.5cm;
+}
+#big-p-fonts{
+    font-size: 20px;
+}
+#artist-featured h3{
+    font-size: 10;
+}
+#artist-featured h2{
+font-size: 20px;
+
+}
+#lives-ankole{
+    width: 3cm;
+    height: 3cm;
+}
+.fadhile-live{
+border: 0.2cm solid;
+border-color: rgb(245, 191, 199);
+width: 15cm;
+color: white;
+border-radius: 0.5cm;
+background-image: url(Images/fadhi.jpeg);
+position: relative;
+background-size: cover;
+background-position: center;
+}
+.fadhile-live::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;  
+}
+.fadhile-live:hover{
+    border: none;
+}
+
+#artist-day{
+    /* color: white; */
+    font-size: 25px;
+
+}
+
+/* THEM MUSHROOMS */
+#info-and-featuredartist{
+    display: flex;
+}
+#live-info-image{
+    margin-left: 0.4cm;
+    margin-top: 1.4cm;
+}
+#logo{
+    margin-left: 0.4cm;
+    margin-top: cm;
+}
+#artist-featured{
+    margin-left: 0.4cm;
+    margin-top: 1.7cm;
+    line-height: 0.5cm;
+}
+#big-p-fonts{
+    font-size: 20px;
+}
+#artist-featured h3{
+    font-size: 10;
+}
+#artist-featured h2{
+font-size: 20px;
+
+}
+#lives-ankole{
+    width: 3cm;
+    height: 3cm;
+}
+.themmushroom-live{
+    margin-top: 1cm;
+border: 0.2cm solid;
+border-color: rgb(1, 1, 53);
+width: 15cm;
+color: white;
+border-radius: 0.5cm;
+background-image: url(Images/mushroom.jpg);
+position: relative;
+background-size: cover;
+background-position: center;
+}
+.themmushroom-live::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;  
+}
+.themmushroom-live:hover{
+    border: none;
+
+}
+#fa-brands{
+   color: rgb(27, 26, 26); 
+   font-weight: 500;
+}
+/* MUGUNA */
+
+#info-and-featuredartist{
+    display: flex;
+} 
+#live-info-image{
+    margin-left: 0.4cm;
+    margin-top: 1.4cm;
+}
+#logo{
+    margin-left: 0.4cm;
+    margin-top: cm;
+}
+#artist-featured{
+    margin-left: 0.4cm;
+    margin-top: 1.7cm;
+    line-height: 0.5cm;
+}
+#big-p-fonts{
+    font-size: 20px;
+}
+#artist-featured h3{
+    font-size: 10;
+}
+#artist-featured h2{
+font-size: 20px;
+
+}
+#lives-ankole{
+    width: 3cm;
+    height: 3cm;
+}
+.muguna-live{
+    margin-top: 1cm;
+border: 0.2cm solid;
+border-color: rgb(223, 90, 41);
+width: 15cm;
+color: white;
+border-radius: 0.5cm;
+background-image: url(Images/Jack-Muguna-Mbarathi.jpg);
+position: relative;
+background-size: cover;
+background-position: center;
+}
+.muguna-live::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;  
+}
+.muguna-live:hover{
+    border: none;
+}
+#artist-day{
+    color: white;
+    font-size: 20px;
+}
+
+.live-advert{
+    display: flex;
+}
+#live-acoustic{
+    margin-left: 1cm;
+    margin-top: 2cm;
+}
+#live-date{
+    color: orangered;
+
+}
+.ankole-live{
+    background-image: url(Images/jamaicn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+}
+.all{
+    margin-left: 19cm;
+    overflow: auto;
+    height: 100vh;
+}
+#mylive-logo{
+    margin-top: -23cm;
+    margin-left: 6.5cm;
+    position: absolute;
+}
+#tukatike-live{
+    position: absolute;
+    margin-top: -13cm;
+    margin-left: 8.5cm;
+    color: white;
+}
+#tukatike{
+    color: orangered;
+    font-size: 50px;
+}
+#dance{
+    font-size: 25px;
+}
+
+
+/* NAVIGATION */
+.menu-navig{
+    width: 17cm;
+    height: 1cm;
+    border: 1px solid;
+    padding: 0.5cm;
+    border-radius: 1.5cm;
+    background-color: rgb(15, 15, 15);
+color: white;
+position: absolute;
+margin-top: -3.6cm;
+
+
+border: none;
+}
+.menu-navig a{
+    text-decoration: none;
+    color: white;
+}
+#menu-homepage{
+margin-left: 0.8cm;
+}
+#allmenu-menu{
+    margin-left: 0.8cm;
+}
+#menu-review{
+margin-left: 0.8cm;
+}
+#menu-event{
+    margin-left: 0.8cm;
+}
+#live-menu{
+    margin-left: 0.8cm;
+}
+#contact-menu{
+    margin-left: 0.8cm;
+}
+#menu-reservation{
+    margin-left: 0.8cm;
+    width: 3cm;
+    height: 1cm;
+    border-radius: 1cm;
+    background-color: #524f4f;
+    color: white;
+    border: none;
+    
+}

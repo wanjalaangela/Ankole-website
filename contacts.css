@@ -1,0 +1,99 @@
+.contact-container{
+    background-image: url(Images/cont.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+#branch-contacts{
+    display: flex;
+    margin-left: 10cm;
+    gap: 1cm;
+    color: white;
+    font-size: 19px;
+    font-weight: 200;
+    margin-top: 3cm;
+    
+}
+#kitisuru-contacts{
+    width: 9cm;
+    height: 8cm;
+    padding: 10px;
+    border: 2px solid;
+    border-color: white;
+    
+}
+#kitisuru-contacts a{
+    text-decoration: none;
+    color: white;
+
+}
+#kilimani-contacts{
+    width: 9cm;
+padding: 20px;
+    border: 2px solid;
+    border-color: white;
+    /* z-index: 2; */
+}
+#kilimani-contacts a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;   
+}
+#contact-logo{
+    width: 4cm;
+    height: 4cm;
+    margin-left: 20cm;
+}
+
+/* CONTACTS NAVIGATION */
+
+.contact-navig{
+    width: 17cm;
+    height: 1cm;
+    border: 1px solid;
+    padding: 0.5cm;
+    border-radius: 1.5cm;
+    background-color: black;
+color: white;
+position: absolute;
+margin-top: 16cm;
+margin-left: 13cm;
+border: none;
+}
+.contact-navig a{
+    text-decoration: none;
+    color: white;
+}
+#contact-homepage{
+margin-left: 0.8cm;
+}
+#contact-menu{
+    margin-left: 0.8cm;
+}
+#contact-review{
+margin-left: 0.8cm;
+}
+#contact-event{
+    margin-left: 0.8cm;
+}
+#contact-live{
+    margin-left: 0.8cm;
+}
+#contacts-cont{
+    margin-left: 0.8cm;
+}
+#reservation-cont{
+    margin-left: 0.8cm;
+    width: 3cm;
+    height: 1cm;
+    border-radius: 1cm;
+    background-color: #524f4f;
+    color: white;
+    border: none;
+    
+}

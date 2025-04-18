@@ -1,0 +1,60 @@
+#info-and-featuredartist{
+    display: flex;
+}
+#live-info-image{
+    margin-left: 0.4cm;
+    margin-top: 1.4cm;
+}
+#logo{
+    margin-left: 0.4cm;
+    
+}
+#artist-featured{
+    margin-left: 0.4cm;
+    margin-top: 1.7cm;
+    line-height: 0.5cm;
+}
+#big-p-fonts{
+    font-size: 20px;
+}
+#artist-featured h3{
+    font-size: 10;
+}
+#artist-featured h2{
+font-size: 20px;
+
+}
+#lives-ankole{
+    width: 3cm;
+    height: 3cm;
+}
+.fadhile-live{
+border: 0.2cm solid;
+border-color: rgb(245, 191, 199);
+width: 100%;
+height: 140vh;
+color: white;
+border-radius: 0.5cm;
+background-image: url(Images/fadhi.jpeg);
+position: relative;
+background-size: cover;
+background-position: center;
+}
+.fadhile-live::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;  
+}
+.fadhile-live:hover{
+    border: none;
+}
+
+#artist-day{
+    font-size: 25px;
+
+}

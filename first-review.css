@@ -1,0 +1,77 @@
+/* review */
+.second-review{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+.fa-quote-left{
+    margin-right: 19cm;
+    color: #d13610;
+}
+.fa-quote-right{
+    margin-left: 19cm;
+    color: #d13610;
+
+}
+#review-logo{
+    margin-top: 2.5cm;
+}
+#paragraphs{
+    display: flex;
+margin-left: 12cm;
+gap: 0.5cm;
+}
+.fa-angle-left{
+color: #929396;
+}
+.fa-angle-right{
+    color: #5c5e61;
+}
+
+/* NAVIGATION */
+.menu-navig{
+    width: 17cm;
+    height: 1cm;
+    border: 1px solid;
+    padding: 0.5cm;
+    border-radius: 1.5cm;
+    background-color: rgb(15, 15, 15);
+color: white;
+position: absolute;
+margin-top: -3.6cm;
+margin-left: 14cm;
+border: none;
+}
+.menu-navig a{
+    text-decoration: none;
+    color: white;
+}
+#menu-homepage{
+margin-left: 0.8cm;
+}
+#allmenu-menu{
+    margin-left: 0.8cm;
+}
+#menu-review{
+margin-left: 0.8cm;
+}
+#menu-event{
+    margin-left: 0.8cm;
+}
+#live-menu{
+    margin-left: 0.8cm;
+}
+#contact-menu{
+    margin-left: 0.8cm;
+}
+#menu-reservation{
+    margin-left: 0.8cm;
+    width: 3cm;
+    height: 1cm;
+    border-radius: 1cm;
+    background-color: #524f4f;
+    color: white;
+    border: none;
+    
+}

@@ -1,0 +1,240 @@
+/* menu */
+.kitisuru-menu{
+    background-image: url('Images/grill\ 1.jpg');
+    width: 50%;
+    height: 23cm;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white; 
+    text-align: center;
+    background-blend-mode: darken;
+
+    
+}
+.kitisuru-menu::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;
+}
+.kitisuru-menu p{
+margin-top: 9cm;
+color: orangered;
+font-size: 30px;
+
+}
+.kitisuru-menu h1{
+    font-size: 50px;
+}
+.kilimani-menu{
+ background-image: url(Images/entrance\ 1.jpg); 
+ width: 50%; 
+ height: 23cm;
+ background-size: cover;
+ background-position: center;
+ position: relative;
+  color: white; 
+  text-align: center;
+  /* background-blend-mode: darken; */
+}
+.kilimani-menu::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1; 
+}
+.kilimani-menu p{
+    margin-top: 9cm;
+    color: orangered;
+    font-size: 30px;
+}
+.kilimani-menu h1{
+    font-size: 50px;
+}
+.branch-menus{
+    display: flex;
+}
+.branch-menus a{
+text-decoration: none;
+color: white;
+}
+
+
+/* NAVIGATION */
+.menu-navig{
+    width: 17cm;
+    height: 1cm;
+    border: 1px solid;
+    padding: 0.5cm;
+    border-radius: 1.5cm;
+    background-color: black;
+color: white;
+position: absolute;
+margin-top: -3.6cm;
+margin-left: 14cm;
+border: none;
+}
+.menu-navig a{
+    text-decoration: none;
+    color: white;
+}
+#menu-homepage{
+margin-left: 0.8cm;
+}
+#allmenu-menu{
+    margin-left: 0.8cm;
+}
+#menu-review{
+margin-left: 0.8cm;
+}
+#menu-event{
+    margin-left: 0.8cm;
+}
+#live-menu{
+    margin-left: 0.8cm;
+}
+#contact-menu{
+    margin-left: 0.8cm;
+}
+#menu-reservation{
+    margin-left: 0.8cm;
+    width: 3cm;
+    height: 1cm;
+    border-radius: 1cm;
+    background-color: #524f4f;
+    color: white;
+    border: none;
+    
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+    body{
+        overflow-x: hidden;
+    }
+/* menu */
+.kitisuru-menu{
+    background-image: url('Images/grill\ 1.jpg');
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white; 
+    text-align: center;
+    background-blend-mode: darken;
+
+    
+}
+.kitisuru-menu::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;
+}
+.kitisuru-menu p{
+margin-top: 5cm;
+color: orangered;
+font-size: 20px;
+
+}
+.kitisuru-menu h1{
+    font-size: 30px;
+}
+.kilimani-menu{
+ background-image: url(Images/entrance\ 1.jpg); 
+ width: 50%; 
+ height: 100vh;
+ background-size: cover;
+ background-position: center;
+ position: relative;
+  color: white; 
+  text-align: center;
+  /* background-blend-mode: darken; */
+}
+.kilimani-menu::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1; 
+}
+.kilimani-menu p{
+    margin-top: 5cm;
+    color: orangered;
+    font-size: 20px;
+}
+.kilimani-menu h1{
+    font-size: 30px;
+}
+.branch-menus{
+    display: flex;
+}
+.branch-menus a{
+text-decoration: none;
+color: white;
+}
+
+
+/* NAVIGATION */
+.menu-navig{
+    width: 11.3cm;
+    height: 0.5cm;
+    border: 1px solid;
+    /* padding: 0.5cm; */
+    border-radius: 1.5cm;
+    background-color: black;
+color: white;
+position: absolute;
+margin-top: -4cm;
+margin-left: -0.1cm;
+border: none;
+}
+.menu-navig a{
+    text-decoration: none;
+    color: white;
+}
+#menu-homepage{
+margin-left: 0.1cm;
+}
+#allmenu-menu{
+    margin-left: 0.1cm;
+}
+#menu-review{
+margin-left: 0.1cm;
+}
+#menu-event{
+    margin-left: 0.1cm;
+}
+#live-menu{
+    margin-left: 0.1cm;
+}
+#contact-menu{
+    margin-left: 0.1cm;
+}
+#menu-reservation{
+    margin-left: 0.1cm;
+    width: 2.5cm;
+    height: 0.5cm;
+    border-radius: 1cm;
+    background-color: #524f4f;
+    color: white;
+    border: none;
+    
+}
+
+}

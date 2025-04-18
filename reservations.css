@@ -1,0 +1,127 @@
+.reservations{
+    display: flex;
+
+}
+#reservation-picture{
+    width: 50%;
+    height: 100vh;
+}
+.sighnup-form{
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+    color:white;
+
+
+}
+.sighnup-form input{
+    background-color: black;
+    width: 16cm;
+    height: 1cm;
+    color: white;
+}
+.sighnup-form input:hover{
+    border-color: green;
+}
+#location-select{
+    width: 16cm;
+    height: 1cm;
+    background-color: black;
+    color: rgb(114, 111, 111);
+}
+#location-select:hover{
+    border-color: green;
+}
+#resrvation-button{
+    width: 16cm;
+    height: 2cm;
+    border-radius: 0.5cm;
+}
+#resrvation-button :hover{
+    color: rgb(37, 22, 22);
+}
+#make-reservation{
+    padding: 0.5cm;
+    box-shadow: 2cm grey;
+    margin-left: 1.8cm;
+    margin-top: 1.8cm;
+}
+
+#reservation-picture{
+    background-image: url(Images/karibuankole.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+#reservation-picture::after{
+content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;
+}
+#karibu{
+    font-size: 30px;
+    margin-top: 3cm;
+}
+#karibu-reservation{
+    font-size: 55px;
+    color: orangered;
+}
+#logo-reservation{
+    margin-top: 1cm;
+}
+
+
+/* NAVIGITION */
+.reservation-navig{
+    width: 17cm;
+    height: 1cm;
+    border: 1px solid;
+    padding: 0.5cm;
+    border-radius: 1.5cm;
+    background-color: rgb(15, 15, 15);
+color: white;
+position: absolute;
+margin-top: 4.5cm;
+margin-left: 13.6cm;
+border: none;
+}
+.reservation-navig a{
+    text-decoration: none;
+    color: white;
+}
+#reservation-homepage{
+margin-left: 0.8cm;
+}
+#reservation-menu{
+    margin-left: 0.8cm;
+}
+#reservation-review{
+margin-left: 0.8cm;
+}
+#reservation-event{
+    margin-left: 0.8cm;
+}
+#reservation-live{
+    margin-left: 0.8cm;
+}
+#reservation-contacts{
+    margin-left: 0.8cm;
+}
+#res-reservation{
+    margin-left: 0.8cm;
+    width: 3cm;
+    height: 1cm;
+    border-radius: 1cm;
+    background-color: #524f4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

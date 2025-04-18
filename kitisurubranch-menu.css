@@ -1,0 +1,437 @@
+/* Menu kitisuru */
+
+.kitisurumenu-left{
+    background-image: url('Images/kitsmat.jpg');
+    width: 50%; 
+    height: 23cm;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white; 
+    text-align: center;
+}
+.kitisurumenu-left::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;  
+}
+.kitisurumenu-right{
+    background-color: black;
+    color: white;
+    width: 50%;
+    overflow: auto;
+    height: 23cm;
+    padding-left: 1.3cm;
+    /* padding: 1cm; */
+}
+
+.kitisurumenu-right a{
+    text-decoration: none;
+    color: white;
+}
+#kitisuru-categories{
+    margin-left: 4cm;
+}
+#kitisuru-categories :hover{
+color: orangered;
+}
+#food{
+    margin-left: 1cm;
+}
+#sauces{
+    margin-left: 1cm;
+}
+#drinks{
+    margin-left: 1cm;
+}
+#happyhour{
+    margin-left: 1cm;
+}
+#tea{
+    color: orangered;
+}
+#tea-types{
+    display: flex;
+    
+}
+#coffee-price{
+    margin-left: 13cm;
+}
+#price{
+    margin-left: 12cm;
+}
+.kitisurumenu{
+    display: flex;
+}
+
+#kitisuru-extra{
+    display: flex;
+    
+
+}
+#extra-prices{
+    margin-left: 14cm;
+}
+#extra{
+    color: orangered;
+
+}
+#soup-specification{
+    display: flex;
+}
+#soup{
+    color: orangered;
+}
+#soup-price{
+    margin-left: 9cm;
+    margin-top: -0.3cm;
+}
+#salad{
+    color: orangered;
+}
+/* #salad-logo{
+    width: -1cm;
+    height: -1cm;
+    margin-top: -0.5cm;
+} */
+#thai-beef{
+    display: flex;
+    margin-top: 1cm;
+}
+#thaibeef-price{
+    margin-left: 1.1cm;
+}
+#thai-beef-description{
+    margin-left: cm;
+}
+#wa-keen{
+    display: flex;
+    margin-top: 1cm;
+}
+#wakeen-price{
+    margin-left: -0.7cm;
+}
+#chicken-bacon{
+    display: flex;
+    margin-top: 1cm;
+}
+#chickenbacon-price{
+    margin-left: 2.3cm;
+}
+#sandwich{
+    color: orangered;
+}
+#steak-cheese{
+    display: flex;
+    margin-top: 1cm;
+}
+#steakcheese-price{
+    margin-left: 3.7cm;
+}
+#chicken-club{
+    display: flex;
+    margin-top: 1cm;
+}
+#chickenclub-price{
+    margin-left: -0.6cm;
+}
+#kitisuru-drinks{
+    display: flex;
+}
+#drink-price{
+    margin-left: 14cm;
+}
+#freshjuices{
+    color: orangered;
+}
+#kits-menu{
+    font-size: 30px;
+    margin-top: 5cm;
+}
+#kitisuru{
+    color: orangered;
+    font-size: 50px; 
+}
+
+
+
+
+
+
+
+
+
+
+/* Kitisuru navigation */
+
+.kitisuru-navig{
+    width: 17cm;
+    height: 1cm;
+    border: 1px solid;
+    padding: 0.5cm;
+    border-radius: 1.5cm;
+    background-color: black;
+color: white;
+position: absolute;
+margin-top: 4cm;
+margin-left: 1cm;
+border: none;
+}
+.kitisuru-navig a{
+    text-decoration: none;
+    color: white;
+}
+#kitisuru-homepage{
+margin-left: 0.8cm;
+}
+#kitisuru-menu{
+    margin-left: 0.8cm;
+}
+#kitisuru-review{
+margin-left: 0.8cm;
+}
+#kitisuru-event{
+    margin-left: 0.8cm;
+}
+#kitisuru-live{
+    margin-left: 0.8cm;
+}
+#kitisuru-contacts{
+    margin-left: 0.8cm;
+}
+#kitisuru-reservation{
+    margin-left: 0.8cm;
+    width: 3cm;
+    height: 1cm;
+    border-radius: 1cm;
+    background-color: #524f4f;
+    color: white;
+    border: none;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 857px){
+    body{
+        overflow-x: hidden;
+    }
+    .kitisurumenu-left{
+        background-image: url('Images/kitsmat.jpg');
+        width: 50%; 
+        height: 23cm;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white; 
+        text-align: center;
+    }
+    .kitisurumenu-left::after{
+        content: "";
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0,0.5);
+        z-index: 1;  
+    }
+    .kitisurumenu-right{
+        background-color: black;
+        color: white;
+        width: 50%;
+        overflow: auto;
+        height: 23cm;
+        padding-left: 1.3cm;
+        /* padding: 1cm; */
+    }
+    
+    .kitisurumenu-right a{
+        text-decoration: none;
+        color: white;
+    }
+    #kitisuru-categories{
+        margin-left: 4cm;
+    }
+    #kitisuru-categories :hover{
+    color: orangered;
+    }
+    #food{
+        margin-left: 1cm;
+    }
+    #sauces{
+        margin-left: 1cm;
+    }
+    #drinks{
+        margin-left: 1cm;
+    }
+    #happyhour{
+        margin-left: 1cm;
+    }
+    #tea{
+        color: orangered;
+    }
+    #tea-types{
+        display: flex;
+        
+    }
+    #coffee-price{
+        margin-left: 13cm;
+    }
+    #price{
+        margin-left: 12cm;
+    }
+    .kitisurumenu{
+        display: flex;
+    }
+    
+    #kitisuru-extra{
+        display: flex;
+        
+    
+    }
+    #extra-prices{
+        margin-left: 14cm;
+    }
+    #extra{
+        color: orangered;
+    
+    }
+    #soup-specification{
+        display: flex;
+    }
+    #soup{
+        color: orangered;
+    }
+    #soup-price{
+        margin-left: 9cm;
+        margin-top: -0.3cm;
+    }
+    #salad{
+        color: orangered;
+    }
+    /* #salad-logo{
+        width: -1cm;
+        height: -1cm;
+        margin-top: -0.5cm;
+    } */
+    #thai-beef{
+        display: flex;
+        margin-top: 1cm;
+    }
+    #thaibeef-price{
+        margin-left: 1.1cm;
+    }
+    #thai-beef-description{
+        margin-left: cm;
+    }
+    #wa-keen{
+        display: flex;
+        margin-top: 1cm;
+    }
+    #wakeen-price{
+        margin-left: -0.7cm;
+    }
+    #chicken-bacon{
+        display: flex;
+        margin-top: 1cm;
+    }
+    #chickenbacon-price{
+        margin-left: 2.3cm;
+    }
+    #sandwich{
+        color: orangered;
+    }
+    #steak-cheese{
+        display: flex;
+        margin-top: 1cm;
+    }
+    #steakcheese-price{
+        margin-left: 3.7cm;
+    }
+    #chicken-club{
+        display: flex;
+        margin-top: 1cm;
+    }
+    #chickenclub-price{
+        margin-left: -0.6cm;
+    }
+    #kitisuru-drinks{
+        display: flex;
+    }
+    #drink-price{
+        margin-left: 14cm;
+    }
+    #freshjuices{
+        color: orangered;
+    }
+    #kits-menu{
+        font-size: 30px;
+        margin-top: 5cm;
+    }
+    #kitisuru{
+        color: orangered;
+        font-size: 50px; 
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Kitisuru navigation */
+    
+    .kitisuru-navig{
+        width: 17cm;
+        height: 1cm;
+        border: 1px solid;
+        padding: 0.5cm;
+        border-radius: 1.5cm;
+        background-color: black;
+    color: white;
+    position: absolute;
+    margin-top: 4cm;
+    margin-left: 1cm;
+    border: none;
+    }
+    .kitisuru-navig a{
+        text-decoration: none;
+        color: white;
+    }
+    #kitisuru-homepage{
+    margin-left: 0.8cm;
+    }
+    #kitisuru-menu{
+        margin-left: 0.8cm;
+    }
+    #kitisuru-review{
+    margin-left: 0.8cm;
+    }
+    #kitisuru-event{
+        margin-left: 0.8cm;
+    }
+    #kitisuru-live{
+        margin-left: 0.8cm;
+    }
+    #kitisuru-contacts{
+        margin-left: 0.8cm;
+    }
+    #kitisuru-reservation{
+        margin-left: 0.8cm;
+        width: 3cm;
+        height: 1cm;
+        border-radius: 1cm;
+        background-color: #524f4f;
+        color: white;
+        border: none;
+        
+    }
+
+}
