@@ -75,3 +75,93 @@ margin-left: 0.8cm;
     border: none;
     
 }
+
+@media screen and (min-width: 320px) and (max-width: 857px){
+    body{
+        overflow-x: hidden;
+    }
+/* * review */ 
+.second-review{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+.fa-quote-left{
+    margin-right: 11cm;
+    color: #d13610;
+}
+.fa-quote-right{
+    margin-left: 11cm;
+    color: #d13610;
+
+}
+#review-logo{
+    margin-top: 0.5cm;
+    width: 2cm;
+    height: 2cm;
+}
+#paragraphs{
+    display: flex;
+margin-left: -0.1cm;
+gap: cm;
+}
+.fa-angle-left{
+color: #929396;
+margin-left: 0.2cm;
+}
+.fa-angle-right{
+    color: #929396;
+    margin-right: 0.2cm;
+}
+
+/* NAVIGATION */
+.menu-navig{
+    width: 11.3cm;
+    height: 1cm;
+    border: 1px solid;
+    /* padding: 0.5cm; */
+    border-radius: 1.5cm;
+    background-color: rgb(15, 15, 15);
+color: white;
+position: absolute;
+margin-top: -3.6cm;
+margin-left: -0.1cm;
+border: none;
+}
+.menu-navig a{
+    text-decoration: none;
+    color: white;
+}
+#menu-homepage{
+margin-left: 0.1cm;
+}
+#allmenu-menu{
+    margin-left: 0.1cm;
+}
+#menu-review{
+margin-left: 0.1cm;
+}
+#menu-event{
+    margin-left: 0.1cm;
+}
+#live-menu{
+    margin-left: 0.1cm;
+}
+#contact-menu{
+    margin-left: 0.1cm;
+}
+#menu-reservation{
+    margin-left: 0.1cm;
+    width: 2.5cm;
+    height: 0.6cm;
+    border-radius: 1cm;
+    background-color: #524f4f;
+    color: white;
+    border: none;
+    
+}
+
+
+
+}
