@@ -63,6 +63,10 @@ background-position: center;
 #info-and-featuredartist{
     display: flex;
 }
+#info-and-featuredartist a{
+    text-decoration: none;
+    color: white;
+}
 #live-info-image{
     margin-left: 0.4cm;
     margin-top: 1.4cm;
@@ -79,6 +83,7 @@ background-position: center;
 #big-p-fonts{
     font-size: 20px;
 }
+
 #artist-featured h3{
     font-size: 10;
 }

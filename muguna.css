@@ -1,0 +1,57 @@
+/* MUGUNA */
+
+#info-and-featuredartist{
+    display: flex;
+} 
+#live-info-image{
+    margin-left: 0.4cm;
+    margin-top: 1.4cm;
+}
+#logo{
+    margin-left: 0.4cm;
+    margin-top: cm;
+}
+#artist-featured{
+    margin-left: 13cm;
+    margin-top: 7.7cm;
+    line-height: 0.5cm;
+}
+#big-p-fonts{
+    font-size: 60px;
+}
+#artist-featured h3{
+    font-size: 10;
+}
+#artist-featured h2{
+font-size: 60px;
+
+}
+#lives-ankole{
+    width: 3cm;
+    height: 3cm;
+}
+.muguna-live{
+    margin-top: 1cm;
+border: 0.2cm solid;
+border-color: rgb(223, 90, 41);
+width: 100%;
+color: white;
+border-radius: 0.5cm;
+background-image: url(Images/Jack-Muguna-Mbarathi.jpg);
+position: relative;
+background-size: cover;
+background-position: center;
+}
+.muguna-live::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;  
+}
+/* .muguna-live:hover{
+    border: none;
+} */
